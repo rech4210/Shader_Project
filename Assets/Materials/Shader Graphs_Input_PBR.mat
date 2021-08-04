@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Input_PBR
-  m_Shader: {fileID: -6465566751694194690, guid: 119947619cba35c4983c8b013689929b, type: 3}
+  m_Name: Shader Graphs_Input_PBR
+  m_Shader: {fileID: -6465566751694194690, guid: 40b1a2d4e154c9641a4377c69605cd9f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,15 +20,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_9FE4BADD:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CubemapAsset_7B6135D7_Out_0:
-        m_Texture: {fileID: 8900000, guid: 656a59a5ff93c46498416d97e5c16b66, type: 3}
+        m_Texture: {fileID: 2800000, guid: bfae99debc41c8f498d331b640f32fb6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_AC3C7119_Texture_1:
         m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D424FA49_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_FDD88D9E_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a9c181b5e321b4a458eb1473ccf4b0cb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
